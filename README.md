@@ -46,11 +46,11 @@ class AppKernel extends Kernel
 Step 3: Services configuration
 ------------------------------
 
-You need to add tag <b>name</b> to your entity manager service definition:
+You need to add tag **name** to your entity manager service definition:
 ```yml
 tags:
   // ...
   - {name: entity.custom_manager}
 ```  
 
-Your entity manager classes must implement <a href="https://github.com/GrossumUA/CustomEntityManagerBundle/blob/master/Entity/ManagedClassNameInterface.php" target="_blank">ManagedClassNameInterface</a> interface and provide information about full name of managed class by <b>getManagedClassName</b> method.
+Your entity manager classes must implement [ManagedClassNameInterface](https://github.com/GrossumUA/CustomEntityManagerBundle/blob/master/Entity/ManagedClassNameInterface.php) interface and provide information about full name of managed class by **getManagedClassName** method.
