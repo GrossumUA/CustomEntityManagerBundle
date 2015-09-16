@@ -1,0 +1,28 @@
+{
+    "name": "grossum/custom-entity-manager",
+    "description": "Custom entity manager bundle",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Alexey Verkeenko",
+            "email": "averkeenko@grossum.com"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/framework-bundle": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grossum\\CustomEntityManagerBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
