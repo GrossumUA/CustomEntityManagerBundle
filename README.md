@@ -54,3 +54,32 @@ tags:
 ```  
 
 Your entity manager classes must implement [ManagedClassNameInterface](https://github.com/GrossumUA/CustomEntityManagerBundle/blob/master/Entity/ManagedClassNameInterface.php) interface and provide information about full name of managed class by **getManagedClassName** method.
+
+Step 4: Usage
+-------------
+```php
+
+// ...
+/** @var EntityManagerLoader $entityManagerLoader */
+private $entityManagerLoader;
+
+// ...
+public function __construct(
+    EntityManagerLoader $entityManagerLoader,
+    // ...
+) {
+    $this->entityManagerLoader = $entityManagerLoader;
+    // ...
+}
+// ...
+
+/**
+* param string $className
+* return ManagedClassNameInterface
+*/
+public function getEntityManagerByClassName($className)
+{
+    return $this->entityManagerLoader->getManagerForClass($className);
+}
+// ...
+```
