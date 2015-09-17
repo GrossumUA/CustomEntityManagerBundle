@@ -4,7 +4,7 @@ namespace Grossum\CustomEntityManagerBundle\Entity;
 
 class EntityManagerLoader
 {
-    private $managers = [];
+    protected $managers = [];
 
     /**
      * @param ManagedClassNameInterface $manager

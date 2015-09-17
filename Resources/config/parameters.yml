@@ -1,0 +1,2 @@
+parameters:
+    grossum.custom_entity_manager.loader.class: Grossum\CustomEntityManagerBundle\Entity\EntityManagerLoader
