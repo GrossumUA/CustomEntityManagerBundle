@@ -1,3 +1,8 @@
+Custom Entity Manager Bundle
+============================
+
+[![Latest Stable Version](https://poser.pugx.org/grossum/custom-entity-manager/v/stable)](https://packagist.org/packages/grossum/custom-entity-manager) [![Total Downloads](https://poser.pugx.org/grossum/custom-entity-manager/downloads)](https://packagist.org/packages/grossum/custom-entity-manager) [![Latest Unstable Version](https://poser.pugx.org/grossum/custom-entity-manager/v/unstable)](https://packagist.org/packages/grossum/custom-entity-manager) [![License](https://poser.pugx.org/grossum/custom-entity-manager/license)](https://packagist.org/packages/grossum/custom-entity-manager)
+
 Installation
 ============
 
