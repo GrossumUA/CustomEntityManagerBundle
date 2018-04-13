@@ -1,0 +1,3 @@
+services:
+    grossum.entity_manager_loader:
+        class: '%grossum.custom_entity_manager.loader.class%'
